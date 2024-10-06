@@ -1,0 +1,64 @@
+.todoWrapper{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.checkboxWrapper{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox{
+    height: 30px;
+    width: 30px;
+}
+
+.text{
+    margin-left: 10px;
+    margin-bottom: 3px;
+    font-weight: 600;
+
+}
+
+
+.actionWrapper{
+    display: flex;
+    align-items: center;
+}
+
+.delete{
+    margin: 3px;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    background-color: #eeeeee;
+    color: #585858;
+}
+
+.edit{
+    margin: 3px;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    background-color: #eeeeee;
+    color: #585858;
+}
+
+.delete:hover{
+    color: #e33f31;
+    background-color: lightgray;
+}
+
+.edit:hover{
+    color: #6370f0;
+    background-color: lightgray;
+}
+
+
